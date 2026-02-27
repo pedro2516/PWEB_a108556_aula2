@@ -5,57 +5,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Currículo e Portfólio de Pedro Neves - Estudante de Engenharia e Gestão de Sistemas de Informação">
-    <meta name="keywords" content="Pedro Neves, CV, currículo, Engenharia, Sistemas de Informação, Universidade do Minho">
     <meta name="author" content="Pedro Neves">
-    <title>Pedro Neves - Currículo</title>
+    <title>Pedro Neves | Immersive Experience</title>
     <link rel="icon" type="image/x-icon" href="fav.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Immersive Background Layer -->
+    <div class="bg-canvas">
+        <div class="particles"></div>
+    </div>
 
-    <header>
+    <header class="cabecalho">
         <nav>
             <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre mim</a></li>
-                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="#banner">Início</a></li>
+                <li><a href="#sobre">Foco</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Trabalho</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section id="banner">
-            <h1>Pedro Neves</h1>
-            <p>Estudante de Engenharia e Gestão de Sistemas de Informação</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/pedro-neves-11a1372a8/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="https://github.com/pedro2516" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            </ul>
+            <div class="parallax-wrapper">
+                <h1>Pedro Neves</h1>
+                <p>Engineering & Information Systems Management Student @ UMinho</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/pedro-neves-11a1372a8/" target="_blank" class="cta">LinkedIn</a>
+                    <a href="https://github.com/pedro2516" target="_blank" class="cta">GitHub</a>
+                </div>
+            </div>
         </section>
 
         <hr>
 
+        <!-- Brief Section -->
         <section id="sobre">
-            <h2>Sobre mim</h2>
-            <p>Texto informativo sobre mim. Sou um entusiasta de tecnologia focado em sistemas de informação.</p>
-            <p><a href="sobre.html">Ler mais sobre mim...</a></p>
+            <div class="parallax-wrapper">
+                <h2>O Conceito</h2>
+                <p>Curioso sobre tecnologia e apaixonado pela exploração de sistemas complexos. Traduzi o meu percurso académico numa experiência digital minimalista e futurista.</p>
+                <a href="sobre.html" class="cta">Saber Mais</a>
+            </div>
         </section>
 
         <hr>
 
+        <!-- Education Section -->
         <section id="formacao">
-            <h2>Formação</h2>
-            <p>Licenciatura em Engenharia e Gestão de Sistemas de Informação</p>
-            <p><strong>Universidade do Minho</strong></p>
-            <p>2023 - 2026 (Previsão)</p>
-            <p><a href="formacao.html">Ver detalhes da formação...</a></p>
+            <div class="parallax-wrapper">
+                <h2>Educação</h2>
+                <p>Licenciatura em Engenharia e Gestão de Sistemas de Informação</p>
+                <p><strong>Universidade do Minho</strong> | 2023 - 2026</p>
+                <a href="formacao.html" class="cta">Expandir</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Projects Preview -->
+        <section id="projetos">
+            <div class="parallax-wrapper">
+                <h2>Projetos Selecionados</h2>
+                <div class="galeria">
+                    <img src="https://www.tamug.edu/nautilus/articles/images/2024-sean-diddy-combs.jpeg" alt="Project 1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy1rZ2987WPeeOexcR7CUv4pCDCHpjOlJi5A&s" alt="Project 2">
+                </div>
+                <p style="margin-top: 2rem;">Uma coleção de explorações digitais e soluções de engenharia.</p>
+                <a href="projetos.html" class="cta">Ver Todos</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contatos">
+            <div class="parallax-wrapper">
+                <h2>Contacto</h2>
+                <p>Disponível para colaborações ou novas oportunidades.</p>
+                <a href="mailto:exemplo@email.com" class="cta">Enviar Mensagem</a>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Pedro Neves. Todos os direitos reservados.</p>
+    <footer style="padding: 4rem; text-align: center; color: var(--text-muted); font-size: 0.8rem; border-top: 1px solid var(--glass-border);">
+        <p>&copy; 2026 Pedro Neves. All rights reserved.</p>
     </footer>
-
 </body>
-
 </html>

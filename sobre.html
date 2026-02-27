@@ -5,49 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sobre Pedro Neves - Perfil e Interesses">
-    <meta name="keywords" content="Pedro Neves, sobre mim, biografia, estudante, UMinho">
     <meta name="author" content="Pedro Neves">
-    <title>Sobre Mim - Pedro Neves</title>
+    <title>Sobre Mim | Pedro Neves</title>
     <link rel="icon" type="image/x-icon" href="fav.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Immersive Background Layer -->
+    <div class="bg-canvas">
+        <div class="particles"></div>
+    </div>
 
-    <header>
+    <header class="cabecalho">
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="sobre.html">Foco</a></li>
                 <li><a href="formacao.html">Formação</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <article id="sobre-mim">
-            <h1>Sobre Mim</h1>
-            <p>Olá! Eu sou o Pedro Neves, estudante de Engenharia e Gestão de Sistemas de Informação na Universidade do Minho.</p>
-            
-            <section>
-                <h2>Os meus Interesses</h2>
-                <p>Tenho um grande interesse por desenvolvimento de software, gestão de projetos e análise de dados. Gosto de aprender novas tecnologias e resolver problemas complexos.</p>
-            </section>
+        <section>
+            <div class="parallax-wrapper">
+                <h1>Sobre Mim</h1>
+                <p>Olá! Eu sou o Pedro Neves, estudante de Engenharia e Gestão de Sistemas de Informação na Universidade do Minho.</p>
+            </div>
+        </section>
 
-            <section>
-                <h2>Contacto</h2>
-                <p>Podes encontrar-me em:</p>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/pedro-neves-11a1372a8/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                    <li><a href="https://github.com/pedro2516" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                </ul>
-            </section>
-        </article>
+        <hr>
+
+        <section>
+            <div class="parallax-wrapper">
+                <h2>Interesses</h2>
+                <p>Tenho um grande interesse por desenvolvimento de software, gestão de projetos e análise de dados. Gosto de aprender novas tecnologias e resolver problemas complexos.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <div class="parallax-wrapper">
+                <h2>Contacto & Links</h2>
+                <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem;">
+                    <a href="https://www.linkedin.com/in/pedro-neves-11a1372a8/" target="_blank" class="cta">LinkedIn</a>
+                    <a href="https://github.com/pedro2516" target="_blank" class="cta">GitHub</a>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Pedro Neves. Todos os direitos reservados.</p>
+    <footer style="padding: 4rem; text-align: center; color: var(--text-muted); font-size: 0.8rem; border-top: 1px solid var(--glass-border);">
+        <p>&copy; 2026 Pedro Neves. All rights reserved.</p>
     </footer>
-
 </body>
 
 </html>
